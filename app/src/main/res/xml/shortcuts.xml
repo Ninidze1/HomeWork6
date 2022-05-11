@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="NewDonutDialogFragment"
+        android:enabled="true"
+        android:shortcutShortLabel="@string/short_shortcut"
+        android:shortcutLongLabel="@string/long_shortcut"
+        android:shortcutDisabledMessage="@string/disabled_shortcut"
+        android:icon="@drawable/ic_lexus"
+        tools:targetApi="n_mr1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="myapp://ninidze.com/create" />
+    </shortcut>
+</shortcuts>
